@@ -7,24 +7,14 @@ import Col from 'react-bootstrap/lib/Col';
 import styled from 'styled-components';
 class App extends Component {
   render() {
-    return (
-             <div className="wrapper">
-                 <SayFullName name="Ivan" surname="Ivanov" link="vk.ru"/>
-                 <SayFullName name="Egor" surname="Ivanov" link="vk.ru"/>
-                 <SayFullName name="Ira" surname="Ivanova" link="#"/>
-              </div>
+        return (
+ <h1> Hello Word!</h1>
+
     );
   }
 }
 
-function SayFullName(props) {
-  return(
-  <div>
-        <h1> Мое имя {props.name}, фамилия-{props.surname}</h1>
-        <a href={props.link}> bnbbn</a>
-   </div>
-  )
-}
+
 
 
 export default App;
