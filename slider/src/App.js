@@ -6,6 +6,7 @@ import styled from 'styled-components';
 import Header from './components/header';
 import Menu from './components/menu';
 import Main from './components/main';
+
 const url = process.env.PUBLIC_URL + '/img/bk.png';
 const HeaderWrapper = styled.header`
       with: 100%;
@@ -45,6 +46,7 @@ class App extends Component {
              <Main/>
           </Grid>
           </MainWrapper>
+          
           </div>
  
 
